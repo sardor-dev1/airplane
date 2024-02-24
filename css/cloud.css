@@ -1,0 +1,98 @@
+
+
+.cloud-wrapp {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    gap: 25px;
+}
+
+.cloud {
+    width: 150px;
+    transform: translateX(-130%);
+    z-index: 90;
+}
+
+.cloud-1 {
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-name: cloud-1;
+    margin-top: 20px;
+    width: 150px;
+}
+
+.cloud-2 {
+    width: 100px;
+    animation: cloud-2 11s linear 1.5s infinite normal none;
+}
+
+.cloud-3 {
+    width: 120px;
+    animation: cloud-3 9s linear 1.5s infinite normal none;
+}
+
+.cloud-4 {
+    width: 90px;
+    animation: cloud-4 11s linear 3s infinite normal none;
+}
+
+.cloud-5 {
+    width: 70px;
+    animation: cloud-5 12s linear 5s infinite normal none;
+    animation-delay: 8s;
+    animation-duration: 20s;
+}
+
+
+
+@keyframes cloud-1 {
+    0% {
+        transform: translateX(-5%);
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
+
+@keyframes cloud-2 {
+    0% {
+        transform: translateX(-5%);
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
+@keyframes cloud-3 {
+    0% {
+        transform: translateX(-5%);
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
+@keyframes cloud-4 {
+    0% {
+        transform: translateX(-5%);
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
+@keyframes cloud-5 {
+    0% {
+        transform: translateX(-5%);
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
+

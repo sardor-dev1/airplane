@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #69d2e7;
+  -webkit-animation: body 30s infinite linear;
+    animation: body 30s infinite linear;
+}
+
+#airplane {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.sun {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  background-color: yellow;
+  position: absolute;
+  left: 150px;
+  top: 50px;
+  box-shadow: 0px 0px 150px 5px white;
+  animation: sun 30s linear 0s infinite normal none;
+}
+
+.moon {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  background-color: rgb(234, 230, 230);
+  position: absolute;
+  right: 150px;
+  top: 50px;
+  box-shadow: 0px 0px 150px 5px rgb(136, 132, 132);
+  animation: moon 30s infinite linear;
+}
+
+
+  @-webkit-keyframes body {
+    0% {
+      background-color: #69D2E7;
+    }
+    5% {
+      background-color: #69D2E7;
+    }
+    25% {
+      background-color: #1D2F41;
+    }
+    75% {
+      background-color: #1D2F41;
+    }
+    100% {
+      background-color: #69D2E7;
+    }
+  }
+  @keyframes body {
+    0% {
+      background-color: #69D2E7;
+    }
+    5% {
+      background-color: #69D2E7;
+    }
+    25% {
+      background-color: #1D2F41;
+    }
+    75% {
+      background-color: #1D2F41;
+    }
+    100% {
+      background-color: #69D2E7;
+    }
+  }
+
+@keyframes sun {
+    0% {
+    margin-top: 20px;
+}
+
+10% {
+    margin-top: 20px;
+}
+30% {
+    margin-top: 101%;
+}
+75% {
+    margin-top: 101%;
+}
+100% {
+    margin-top: 20px;
+}
+}
+
+@keyframes moon {
+    0% {
+    margin-top: 101%;
+}
+
+25% {
+    margin-top: 20px;
+}
+75% {
+    margin-top: 20px;
+}
+100% {
+    margin-top: 101%;
+}
+}
